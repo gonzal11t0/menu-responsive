@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu responsivo</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+    <link href="/jquery-ui/jquery-ui.js">
+    <link href="/jquery-ui/jquery-ui.min.js">
+</head>
+<body>
+    <nav>
+        <!-- Menu para responsive -->
+        <div class="mobile">
+        <div class="header">
+            <div class="logo">Logo</div>
+            <div class="more"><button id="bmore">More</button></div>
+        </div>
+        <div id="links" class="links">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Search</a>
+            <a href="#">Login</a>
+        </div>
+        </div>
+        <!-- Menu para pc -->
+        <div class="desktop">
+        <div class="logo">logo</div>
+
+        <div class="primary">
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="secondary full">
+            <a href="#">Search</a>
+            <a href="#">Login</a>
+        </div>
+        <div class="secondary mini">
+            <a href="#">More</a>
+            <div class="submenu">
+            <a href="#">Sign up</a>
+            <a href="#">Login</a>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <script src="./js/app.js">
+    </script>
+</body>
+</html>

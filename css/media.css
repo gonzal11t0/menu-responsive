@@ -1,0 +1,46 @@
+@media screen and (max-width:800px) {
+nav .logo {
+      min-width: 100px;
+}
+nav .secondary.full {
+    display: none;
+}
+nav .secondary.mini {
+    display: block;
+}
+nav .secondary.mini .submenu {
+        position: absolute;
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+nav .desktop {
+    display: none;
+}
+nav .mobile {
+    display: block;
+}
+nav .mobile .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+nav .mobile .header .logo {
+    flex: 1;
+    text-align: center;
+}
+nav .mobile .header .more button {
+    padding: 20px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+nav .mobile .header .more button:hover {
+    background-color:black;
+    color: white;
+}
+}
